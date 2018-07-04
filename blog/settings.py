@@ -30,7 +30,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 DEBUG = True
 
 #ALLOWED_HOSTS = ['django-blog-sighovie.c9users.io', 'ci-blog-test-app']
-ALLOWED_HOSTS = [os.environ.get('C9_HOSTNAME'), 'ci-blog-test-app']
+ALLOWED_HOSTS = [os.environ.get('C9_HOSTNAME'), 'ci-blog-test-app.herokuapp.com']
 
 # Application definition
 

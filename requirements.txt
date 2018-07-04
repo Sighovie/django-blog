@@ -1,6 +1,8 @@
 Django==2.0.7
+Pillow==5.2.0
 chardet==2.2.1
 colorama==0.2.5
+gunicorn==19.8.1
 html5lib==0.999
 pycurl==7.19.3
 pygobject==3.12.0
@@ -10,4 +12,6 @@ requests==2.2.1
 six==1.5.2
 unattended-upgrades==0.1
 urllib3==1.7.1
+virtualenv==16.0.0
 wheel==0.24.0
+whitenoise==3.3.1
